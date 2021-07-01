@@ -28,7 +28,7 @@ Example:  .x drawComparisonPlots.c("output_run339579.root", "2021 MWGR#1 Run:339
 
 3. Delta Fiducial Cut Efficiency ( MWGR2-MWGR1)
 
-.x drawDeltaFiducialCutEff.c("<input file1>", "<input file2>", "<output file>")
+> .x drawDeltaFiducialCutEff.c("<input file1>", "<input file2>", "<output file>")
 
 where input file is the output root file obtained from offline analysis code
 Example:  .x drawDeltaFiducialCutEff.c("SummaryAnalyzeEfficiency_Express2021_339579.root", "SummaryAnalyzeEfficiency_Express2021_340323.root", "output_DeltaFiducialEff_MWGR2_MWGR1.root")
@@ -53,7 +53,7 @@ Example:  .x draw2DplotsMWGR_barrelWheel.c("SummaryAnalyzeEfficiency_Express2021
 
 5. For entire Barrel
 
-.x draw2DplotsMWGR_barrel.c("<input root file>", <Total # Lumisections>, "<output root file>")
+> .x draw2DplotsMWGR_barrel.c("<input root file>", <Total # Lumisections>, "<output root file>")
 
 where input root file is the output obtained from offline analysis code. Total #Lumisections can be found on http://cmsoms.cern.ch
 Example:  .x draw2DplotsMWGR_barrel.c("SummaryAnalyzeEfficiency_Express2021_339579.root", 21167, "2Doutput_barrel_run339579.root")
@@ -61,7 +61,7 @@ Example:  .x draw2DplotsMWGR_barrel.c("SummaryAnalyzeEfficiency_Express2021_3395
 
 6. For each Disk of Endcap
 
-.x draw2DplotsMWGR_endcapDisk.c("<input root file>", <Total # Lumisections>, "<output root file>")
+> .x draw2DplotsMWGR_endcapDisk.c("<input root file>", <Total # Lumisections>, "<output root file>")
 
 where input root file is the output obtained from offline analysis code. Total #Lumisections can be found on http://cmsoms.cern.ch
 Example:  .x draw2DplotsMWGR_endcapDisk.c("SummaryAnalyzeEfficiency_Express2021_339579.root", 21167, "2Doutput_endcapDisk_run339579.root")
@@ -69,7 +69,7 @@ Example:  .x draw2DplotsMWGR_endcapDisk.c("SummaryAnalyzeEfficiency_Express2021_
 
 7. For entire Endcap
 
-.x draw2DplotsMWGR_endcap.c("<input root file>", <Total # Lumisections>, "<output root file>")
+> .x draw2DplotsMWGR_endcap.c("<input root file>", <Total # Lumisections>, "<output root file>")
 
 where input root file is the output obtained from offline analysis code. Total #Lumisections can be found on http://cmsoms.cern.ch
 Example:  .x draw2DplotsMWGR_endcap.c("SummaryAnalyzeEfficiency_Express2021_339579.root", 21167, "2Doutput_endcap_run339579.root")
