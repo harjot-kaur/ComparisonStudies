@@ -18,8 +18,9 @@ where input root file is the output obtained from offline analysis code
 
   Example:  .x drawplotsMWGR.c("SummaryAnalyzeEfficiency_Express2021_339579.root", "output_run339579.root")
 
+  
 
-2. Comparison of distribution between MWGRs:
+**2. Comparison of distribution between MWGRs:**
 
 > .x drawComparisonPlots.c("<input file1>", "<legend Entry name1>", "<input file2>", "<legend Entry name2>", "<output file>")
 
@@ -28,7 +29,8 @@ where input root file is the output obtained from 1st step
 Example:  .x drawComparisonPlots.c("output_run339579.root", "2021 MWGR#1 Run:339579", "output_run340323.root", "2021 MWGR#2 Run:340323", "output_comparisonplots_MWGR1andMWGR2.root")
 
 
-3. Delta Fiducial Cut Efficiency ( MWGR2-MWGR1)
+  
+**3. Delta Fiducial Cut Efficiency ( MWGR2-MWGR1)**
 
 > .x drawDeltaFiducialCutEff.c("<input file1>", "<input file2>", "<output file>")
 
@@ -46,7 +48,7 @@ II.  To obtain 2D plots (Average Cluster Size vs Fiducial Efficiency, RPC occupa
 
 --------------------------------------------------------------------------------------------------
 
-4. For each Wheel of Barrel
+**4. For each Wheel of Barrel**
 
 .x draw2DplotsMWGR_barrelWheel.c("<input root file>", <Total # Lumisections>, "<output root file>")
 
@@ -54,8 +56,9 @@ where input root file is the output obtained from offline analysis code. Total #
   
 Example:  .x draw2DplotsMWGR_barrelWheel.c("SummaryAnalyzeEfficiency_Express2021_339579.root", 21167, "2Doutput_barrelWheel_run339579.root")
 
+  
 
-5. For entire Barrel
+**5. For entire Barrel**
 
 > .x draw2DplotsMWGR_barrel.c("<input root file>", <Total # Lumisections>, "<output root file>")
 
@@ -64,7 +67,8 @@ where input root file is the output obtained from offline analysis code. Total #
 Example:  .x draw2DplotsMWGR_barrel.c("SummaryAnalyzeEfficiency_Express2021_339579.root", 21167, "2Doutput_barrel_run339579.root")
 
 
-6. For each Disk of Endcap
+  
+**6. For each Disk of Endcap**
 
 > .x draw2DplotsMWGR_endcapDisk.c("<input root file>", <Total # Lumisections>, "<output root file>")
 
@@ -73,7 +77,8 @@ where input root file is the output obtained from offline analysis code. Total #
 Example:  .x draw2DplotsMWGR_endcapDisk.c("SummaryAnalyzeEfficiency_Express2021_339579.root", 21167, "2Doutput_endcapDisk_run339579.root")
 
 
-7. For entire Endcap
+  
+**7. For entire Endcap**
 
 > .x draw2DplotsMWGR_endcap.c("<input root file>", <Total # Lumisections>, "<output root file>")
 
@@ -92,7 +97,7 @@ III. For the given list of chambers (SG chambers):
 
 --------------------------------------------------------------------------------------------------
 
-8. Distribution for variables
+**8. Distribution for variables**
 
 To obtain distribution of various variables for the given list of chambers, we  first need to update the list of chambers in code. For barrel list is named as listofchambers_barrel[] and listofchambers_endcap[] is for endcap.
 
@@ -107,8 +112,8 @@ From this step, we will get output root file (distribution stored), text file co
 Similarly we can do for endcap using drawChamberPlots_endcap.c
 
 
-9. Comparison of distribution between MWGRs:
-
+  
+**9. Comparison of distribution between MWGRs:**
 > .x drawComparisonChamberPlots.c("<input file1>", "<legend Entry name1>", "<input file2>", "<legend Entry name2>", "<output file>")
 
 where input root file is the output obtained from 8th step
