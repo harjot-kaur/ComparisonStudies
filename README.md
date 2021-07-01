@@ -12,7 +12,7 @@ I. COMPARISON BETWEEN MWGRs AND RUN2
 
 **1. Distribution for variables**
 
-> .x drawplotsMWGR.c("<input root file>", "<output root file>")
+> .x drawplotsMWGR.c("input root file", "output root file")
 
 where input root file is the output obtained from offline analysis code
 
