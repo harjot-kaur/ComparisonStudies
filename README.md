@@ -10,7 +10,7 @@ I. COMPARISON BETWEEN MWGRs AND RUN2
 
 --------------------------------------------------------------------------------------------------
 
-1. Distribution for variables
+**1. Distribution for variables**
 
 > .x drawplotsMWGR.c("<input root file>", "<output root file>")
 
