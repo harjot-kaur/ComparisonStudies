@@ -5,8 +5,8 @@
 I. COMPARISON BETWEEN MWGRs AND RUN2
 --------------------------------------------------------------------------------------------------
 
-$ cd ComparisonStudies/ComparisonStudy/
-$ root -l
+> cd ComparisonStudies/ComparisonStudy/
+> root -l
 
 --------------------------------------------------------------------------------------------------
 
@@ -38,8 +38,8 @@ Example:  .x drawDeltaFiducialCutEff.c("SummaryAnalyzeEfficiency_Express2021_339
 II.  To obtain 2D plots (Average Cluster Size vs Fiducial Efficiency, RPC occupancy/(Total # Lumisections) vs Fiducial Efficiency and Average Cluster Size vs RPC occupancy/(Total # Lumisections)):
 --------------------------------------------------------------------------------------------------
 
-$ cd ComparisonStudies/2D_plots/
-$ root -l
+> cd ComparisonStudies/2D_plots/
+> root -l
 
 --------------------------------------------------------------------------------------------------
 
@@ -80,8 +80,8 @@ III. For the given list of chambers (SG chambers):
 --------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------
-$ cd ComparisonStudies/SG_ChambersStudy/
-$ root -l
+> cd ComparisonStudies/SG_ChambersStudy/
+> root -l
 
 --------------------------------------------------------------------------------------------------
 
