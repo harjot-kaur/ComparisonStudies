@@ -15,7 +15,8 @@ I. COMPARISON BETWEEN MWGRs AND RUN2
 > .x drawplotsMWGR.c("<input root file>", "<output root file>")
 
 where input root file is the output obtained from offline analysis code
-Example:  .x drawplotsMWGR.c("SummaryAnalyzeEfficiency_Express2021_339579.root", "output_run339579.root")
+
+  Example:  .x drawplotsMWGR.c("SummaryAnalyzeEfficiency_Express2021_339579.root", "output_run339579.root")
 
 
 2. Comparison of distribution between MWGRs:
@@ -23,6 +24,7 @@ Example:  .x drawplotsMWGR.c("SummaryAnalyzeEfficiency_Express2021_339579.root",
 > .x drawComparisonPlots.c("<input file1>", "<legend Entry name1>", "<input file2>", "<legend Entry name2>", "<output file>")
 
 where input root file is the output obtained from 1st step
+  
 Example:  .x drawComparisonPlots.c("output_run339579.root", "2021 MWGR#1 Run:339579", "output_run340323.root", "2021 MWGR#2 Run:340323", "output_comparisonplots_MWGR1andMWGR2.root")
 
 
