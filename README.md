@@ -121,5 +121,4 @@ where input root file is the output obtained from 8th step
 Example:  .x drawComparisonChamberPlots.c("SG_output_run339579.root", "2021 MWGR#1 Run:339579", "SG_output_run340323.root", "2021 MWGR#2 Run:340323", "output_comparisonplots.root")
 
 --------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------
 
